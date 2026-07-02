@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahi's Kitchen</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <h1> Welcome to <span>Mahi's Kitchen</span></h1>
+    </header>
+    <main class="container">
+
+        <div class="menu_cls" id="menu_id">
+
+            <div id="search_box">
+                <h2>Menu Master </h2>
+                <div class="input-group">
+                   <input type="text" placeholder="search item" id="searched_item_name">
+                   <button type="submit" id="search_id">Search</button>
+                </div>
+            </div>
+        
+
+            <div id="add_box">
+                <h3>Add Item</h3>
+                <div class="form-group">
+                <input type="text" placeholder="Add item" id="item_name">
+                <input type="number" placeholder="price" id="item_price">
+                <button type="submit" id="add_id">Add Item</button>
+            </div>
+        </div>
+        
+        <ul class="list_items_class" id="list_items_id">
+        </ul>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
